@@ -13,25 +13,6 @@ public interface SortingAlgos {
     	}
     }
     
-    public static void main(String[] args)
     
-    {  
-    	
-    	SortingAlgos insertionSort=(int[] arr,int i)->{
-    		if (i==0) {
-    			i=arr.length-1;}
-    		if(i>0) {
-    		 insertionSort.sort(arr, i-1);
-    		 insertionSort.insert_last(arr,i);
-    		 }
-    		return arr;
-    		
-    		 
-    		};
-    		int[] unsorted= {2,6,3,8,15,10};
-    		System.out.println(insertionSort.sort(unsorted, 6));
-    		
-    		
-    	};
     }
-}
+
