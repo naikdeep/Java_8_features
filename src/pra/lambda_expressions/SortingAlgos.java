@@ -12,7 +12,10 @@ public interface SortingAlgos {
     		insert_last(arr,i-1);
     	}
     }
-    
+     public static void main(String[] args) {
+    	 System.out.println("my name is naik");
+    	 
+     }
     
     }
 
